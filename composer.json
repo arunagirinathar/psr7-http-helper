@@ -1,0 +1,26 @@
+{
+  "name": "arunagirinathar/psr7-http-helper",
+  "description": "Utility toolkit for simplifying PSR-7 HTTP handling in PHP projects.",
+  "keywords": ["psr-7", "http", "middleware", "request", "response", "php", "utility"],
+  "homepage": "https://github.com/arunagirinathar/psr7-http-helper",
+  "type": "library",
+  "license": "GPL-3.0-or-later",
+  "autoload": {
+    "psr-4": {
+      "Arunagirinathar\\Psr7HttpHelper\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "R. Sivaramakrishna Sharma",
+      "email": "arunagirinathar@gmail.com"
+    }
+  ],
+  "minimum-stability": "stable",
+  "require": {
+    "php": ">=7.4",
+    "psr/http-message": "^1.0",
+    "psr/http-server-middleware": "^1.0",
+    "psr/http-server-handler": "^1.0"
+  }
+}
